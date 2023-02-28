@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 100%;
+  }
+  
+  .column {
+    flex: 1;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 1px;
+    min-width: 20px;
+  }
+  
